@@ -1,0 +1,7 @@
+from math Import *
+
+quantiteCiment = float(input())
+nbSacs = ceil(quantiteCiment / 60)
+prix = nbSacs * 45
+
+print (prix)
